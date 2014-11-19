@@ -11,7 +11,7 @@
     [physicsNode addChild:character];
     [self addObstacle];
     timeSinceObstacle=0.0f;
-    physicsNode.gravity=ccp(0.0f,-400.f);
+    physicsNode.gravity=ccp(0.0f,-500.f);
 }
 
 -(void)update:(CCTime)delta
