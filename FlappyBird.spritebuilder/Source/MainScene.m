@@ -154,7 +154,7 @@
         }
     }
     
-    //loop the clouds and bushes
+    /*loop the clouds and bushes
     for(CCNode *bush in _bushs){
         bush.position=ccp(bush.position.x - (character.physicsBody.velocity.x * delta), bush.position.y);
         if(bush.position.x<=(-1 * bush.contentSize.width)){
@@ -167,7 +167,7 @@
             cloud.position=ccp(cloud.position.x + 2 * cloud.contentSize.width, cloud.position.y);
         }
     }
-    
+    */
     NSMutableArray *offScreenObstacles = nil;
     
     for (CCNode *obstacle in _obstacles) {
